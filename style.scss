@@ -1,0 +1,37 @@
+$c1: red;
+$c2:green;
+$c3:blue;
+
+div {
+    color: $c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid $c1;
+    padding: 15px;
+    h1 {
+        text-decoration: underline $c3 2px;
+    }
+}
+
+section {
+    display: flex;
+    article {
+        border: 1px solid $c2;
+    }
+
+    p {
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.one, .three {
+    color: $c3;
+}
+
+.two, .four {
+    color: $c1;
+}
